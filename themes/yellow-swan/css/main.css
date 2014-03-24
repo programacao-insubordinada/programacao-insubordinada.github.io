@@ -62,11 +62,13 @@ nav{padding:15px 0;position:fixed;width:100%;z-index:10;}
 .nav-link{font-size:1.4em;}
 .header{padding:100px 0 100px;text-align:center;}
 .logo-name{margin-bottom:0;font-size:8em;letter-spacing:-0.04em;}
-.tagline{margin-bottom:50px;font-size:2em;letter-spacing:-0.02em;}
+.tagline{margin:10px 0px 40px 0px;font-size:2.5em;letter-spacing:-0.02em;}
+.schedule-call-action{text-align:center;padding:50px 0 50px;}
 .call-action-area .price{font-size:4em;vertical-align:center;margin-right:20px;}
 .call-action-area .call-action-link,.btn{position:relative;top:-5px;cursor:pointer;display:inline-block;padding:15px 30px;font-size:2em;line-height:1em;vertical-align:center;letter-spacing:-0.02em;-webkit-transition:all 0.3s ease-out;-moz-transition:all 0.3s ease-out;-ms-transition:all 0.3s ease-out;-o-transition:all 0.3s ease-out;transition:all 0.3s ease-out;}
 .call-action-area .call-action-link:hover,.call-action-area .call-action-link:focus,.btn:hover,.btn:focus{top:0;}
 .about{padding:19px;margin:0 -20px 0;}
+.topicos{text-align:center;}.topicos img{width:70%;}
 .speakers-item{position:relative;min-height:180px;padding-left:180px;margin-bottom:30px;border-bottom:1px dashed #e7e7e7;}
 .speaker-photo{position:absolute;top:0;left:0;display:block;width:120px;height:120px;}
 .speech-title{padding-top:10px;font-size:2em;margin-bottom:1em;}
