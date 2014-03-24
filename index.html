@@ -28,6 +28,16 @@
 
 </head>
 <body>
+  <!-- Facebook SDK -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  <!-- / Facebook SDK -->
 
   <div class="global">
 
@@ -80,7 +90,7 @@
     <h1 class="logo-name">
       <a class="logo-link" href="#" title="Programação Insubordinada" itemprop="name">Programação Insubordinada</a>
     </h1>
-    <h2 class="tagline">5-6 Abril - Recife</h2>
+    <h2 class="tagline">5 e 6 de Abril - Recife</h2>
 
     
       <div class="call-action-area">
@@ -94,8 +104,15 @@
   </div>
 </header>
 <!--  / HEADER -->
-
 <hr>
+<div class="social-media-follow">
+  <div class="fb-follow" data-href="https://www.facebook.com/ProgramacaoInsubordinada" data-width="300px" data-height="40px" data-colorscheme="light" data-layout="button_count" data-show-faces="false"></div><br/>
+
+  <a href="https://twitter.com/ProgInsub" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @ProgInsub</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script><br/>
+
+</div>
+
 
     <!-- CONTENT -->
     <div class="content" id="content">
@@ -168,7 +185,12 @@
     </tbody>
   </table>
 </div>
+<div class="social-media-share">
+  <div class="fb-like" data-href="http://programacao-insubordinada.github.io/" data-layout="button_count" data-action="recommend" data-show-faces="false" data-share="true"></div><br/>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-text="Olha aí o evento de Programação Insubordinada o 5 e 6 de Abril em Recife " data-via="ProgInsub" data-size="large">Tweet</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
+</div>
 <div class="schedule-call-action">
   
     <div class="call-action-area">
@@ -180,6 +202,7 @@
     </div>
   
 </div>
+
   </section>
 
   <!-- / SCHEDULE -->
@@ -190,10 +213,10 @@
     <h2 class="section-title">Localização</h2>
 
 <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-  <span itemprop="streetAddress">Av. Governador Agamenon Magalhães, 4779. </span>
+  ThoughtWorks - Edifício Empresarial Isaac Newton, 12 andar<br/>
+  <span itemprop="streetAddress">Av. Governador Agamenon Magalhães, 4779, </span>
   <span itemprop="addressLocality">Recife</span>,
-  <span itemprop="addressRegion">Pernambuco, Brazil</span><br/>
-  Escritorio da ThoughtWorks, 12 andar
+  <span itemprop="addressRegion">Pernambuco, Brazil</span>
 </p>
 <div id="map-canvas" class="location-area" data-address="Av. Governador Agamenon Magalhães, 4779"></div>
   </section>
@@ -240,6 +263,12 @@
     <h2 class="section-title">Parceiros</h2>
 <ul class="partners-list">
 
+
+  <li class="partner-item" itemscope itemtype="http://schema.org/Organization">
+    <a href="http://www.thoughtworks.com" class="partner-logo partner-link" itemprop="url">
+      <img src="themes/yellow-swan/img/partners/thoughtworks.png" alt="ThoughtWorks" class="photo" itemprop="image">
+    </a>
+  </li>
 
   <li class="partner-item">
     <a class="partner-logo partner-link partner-call" href="#">
